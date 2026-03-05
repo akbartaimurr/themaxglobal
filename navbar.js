@@ -1,4 +1,3 @@
-// Navbar Component - Injects navigation HTML into the page
 class Navbar {
   constructor() {
     this.scrolled = false;
@@ -15,7 +14,6 @@ class Navbar {
         return new URL('./index.html#home', scriptSrc).href;
       }
     } catch (e) {
-      // ignore
     }
 
     return '/';
@@ -171,7 +169,6 @@ class Navbar {
       </header>
     `;
 
-    // Insert navbar at the beginning of body
     document.body.insertAdjacentHTML('afterbegin', navbarHTML);
 
     window.toggleMobileMenu = function toggleMobileMenu() {
@@ -188,7 +185,6 @@ class Navbar {
   }
 
   setupEventListeners() {
-    // Scroll handling
     window.addEventListener('scroll', () => {
       const isScrolled = window.scrollY > 20;
       const navbar = document.getElementById('navbar');
@@ -203,27 +199,23 @@ class Navbar {
           navLinks.classList.remove('text-white');
           navLinks.classList.add('text-black');
           
-          // Update logo subtitle color
           const logoSubtitle = document.getElementById('logoSubtitle');
           if (logoSubtitle) {
             logoSubtitle.classList.remove('text-white');
             logoSubtitle.classList.add('text-black');
           }
           
-          // Update hover states for scrolled state
           navLinks.querySelectorAll('a').forEach(link => {
             link.classList.remove('hover:text-white/80');
             link.classList.add('hover:text-black/80');
           });
           
-          // Also update the Services dropdown trigger
           const servicesDropdownTrigger = document.getElementById('servicesDropdownTrigger');
           if (servicesDropdownTrigger) {
             servicesDropdownTrigger.classList.remove('hover:text-white/80');
             servicesDropdownTrigger.classList.add('hover:text-black/80');
           }
           
-          // Update Book a consultation button
           const bookConsultationBtn = document.querySelector('[onclick*="openContactModal"]');
           if (bookConsultationBtn) {
             bookConsultationBtn.classList.remove('bg-white', 'text-black');
@@ -235,27 +227,23 @@ class Navbar {
           navLinks.classList.add('text-white');
           navLinks.classList.remove('text-black');
           
-          // Update logo subtitle color
           const logoSubtitle = document.getElementById('logoSubtitle');
           if (logoSubtitle) {
             logoSubtitle.classList.add('text-white');
             logoSubtitle.classList.remove('text-black');
           }
           
-          // Update hover states for non-scrolled state
           navLinks.querySelectorAll('a').forEach(link => {
             link.classList.add('hover:text-white/80');
             link.classList.remove('hover:text-black/80');
           });
           
-          // Also update the Services dropdown trigger
           const servicesDropdownTrigger = document.getElementById('servicesDropdownTrigger');
           if (servicesDropdownTrigger) {
             servicesDropdownTrigger.classList.add('hover:text-white/80');
             servicesDropdownTrigger.classList.remove('hover:text-black/80');
           }
           
-          // Update Book a consultation button
           const bookConsultationBtn = document.querySelector('[onclick*="openContactModal"]');
           if (bookConsultationBtn) {
             bookConsultationBtn.classList.add('bg-white', 'text-black');
@@ -263,20 +251,17 @@ class Navbar {
           }
         }
         
-        // Always keep dropdown items with black text and hover effects
         const dropdownItems = document.querySelectorAll('#servicesDropdownMenu a');
         dropdownItems.forEach(item => {
           item.classList.remove('text-gray-700');
           item.classList.add('text-gray-900');
           item.classList.remove('hover:bg-gray-800');
           item.classList.add('hover:bg-gray-100');
-          // Ensure text stays black by adding explicit text-black class
           item.classList.add('text-black');
         });
       }
     });
 
-    // Services dropdown
     const servicesDropdown = document.getElementById('servicesDropdown');
     const servicesDropdownMenu = document.getElementById('servicesDropdownMenu');
     const servicesChevron = document.getElementById('servicesChevron');
@@ -311,7 +296,6 @@ class Navbar {
         }, 150);
       });
 
-      // Prevent dropdown from closing when hovering over the menu
       servicesDropdownMenu.addEventListener('mouseenter', () => {
         if (this.timeoutRef) {
           clearTimeout(this.timeoutRef);
@@ -330,7 +314,6 @@ class Navbar {
       });
     }
 
-    // Cleanup on page unload
     window.addEventListener('beforeunload', () => {
       if (this.timeoutRef) {
         clearTimeout(this.timeoutRef);
@@ -339,7 +322,6 @@ class Navbar {
   }
 }
 
-// Initialize navbar when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   new Navbar();
 });

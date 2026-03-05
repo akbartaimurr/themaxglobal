@@ -1,4 +1,3 @@
-// Footer Component - Injects footer HTML into the page
 class Footer {
   constructor() {
     this.init();
@@ -13,7 +12,6 @@ class Footer {
       <footer class="bg-gradient-to-br from-[#022c22] via-[#047857] to-[#011c13] text-white rounded-t-3xl mx-4">
         <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6">
           <div class="grid gap-12 lg:grid-cols-4">
-            <!-- Logo Column -->
             <div class="lg:col-span-1">
               <div class="mb-6">
                 <img src="/assets/logo2.png" alt="The Max Global Logo" width="200" height="80" class="h-auto w-auto max-w-[200px] rounded-lg">
@@ -47,7 +45,6 @@ class Footer {
               </div>
             </div>
 
-            <!-- About Us Column -->
             <div class="lg:col-span-1">
               <div class="flex items-center gap-2 mb-4">
                 <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +56,6 @@ class Footer {
                 At The Max Global, we are a team of management consultants with over 21 years of experience in Accounting, Finance, Taxation, Training and Development.
               </p>
               
-              <!-- Contact Information -->
               <div class="space-y-2 mt-4">
                 <div class="bg-white/20 rounded-lg px-3 py-2 flex items-center gap-2">
                   <svg class="h-4 w-4 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +80,6 @@ class Footer {
               </div>
             </div>
 
-            <!-- Quick Links Column -->
             <div class="lg:col-span-1">
               <div class="flex items-center gap-2 mb-4">
                 <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,7 +115,6 @@ class Footer {
               </ul>
             </div>
 
-            <!-- Services Column -->
             <div class="lg:col-span-1">
               <div class="flex items-center gap-2 mb-4">
                 <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -197,7 +191,6 @@ class Footer {
             </div>
           </div>
 
-          <!-- Bottom Bar -->
           <div class="mt-12 pt-8">
             <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
               <div class="flex items-center gap-2 text-sm text-white/60">
@@ -221,12 +214,10 @@ class Footer {
       </footer>
     `;
 
-    // Insert footer at the end of body
     document.body.insertAdjacentHTML('beforeend', footerHTML);
   }
 }
 
-// Initialize footer when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   new Footer();
 });
