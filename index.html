@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Global Consultancy - Financial Clarity, Compliance & Control | UAE Tax Advisory</title>
+    <meta name="description" content="Max Global Consultancy provides integrated financial, regulatory, and business advisory services in UAE. FTA-approved tax agency offering VAT, corporate tax, accounting, and compliance solutions.">
+    <meta name="keywords" content="UAE tax consultancy, FTA approved, corporate tax, VAT advisory, financial compliance, business setup UAE, tax agency Dubai, accounting services">
+    <meta name="author" content="Max Global Consultancy">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Max Global Consultancy - Financial Clarity, Compliance & Control">
+    <meta property="og:description" content="FTA-approved tax consultancy providing comprehensive financial, regulatory, and business advisory services in UAE.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.maxglobalconsultancy.com">
+    <meta property="og:image" content="https://www.maxglobalconsultancy.com/images/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Max Global Consultancy - Financial Advisory Services">
+    <meta name="twitter:description" content="FTA-approved tax consultancy providing comprehensive financial services in UAE.">
+    <meta name="twitter:image" content="https://www.maxglobalconsultancy.com/images/twitter-image.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Instrument+Serif:ital@0;1&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#0E946C',
+                        'primary-dark': '#0a7356',
+                        'text-primary': '#333',
+                    },
+                    fontFamily: {
+                        'sans': ['"Google Sans"', 'system-ui', 'sans-serif'],
+                        'instrument-serif': ['"Instrument Serif"', 'Georgia', 'serif'],
+                        'mono': ['"DM Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Marquee Animation */
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .marquee-track {
+            animation: marquee 30s linear infinite;
+        }
+        
+        /* Fade In Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in {
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom Font */
+        .font-instrument-serif {
+            font-family: "Instrument Serif", Georgia, serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white text-[#333]">
+    
+    <!-- Navigation and Footer Scripts -->
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-gradient-to-br from-[#011a1a] via-[#036647] to-[#010a0f] text-white overflow-x-hidden pt-16">
+            <div class="mx-auto max-w-6xl px-4 pb-40 pt-44 sm:px-6 sm:pt-45">
+                <div class="mx-auto max-w-4xl text-center animate-fade-in relative">
+                    <div class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-24">
+                        <div class="inline-flex flex-col items-center justify-center rounded-full bg-transparent px-5 py-2 text-sm font-semibold text-white backdrop-blur-sm sm:text-base leading-tight">
+                            <span lang="ar" dir="rtl" class="text-white/90"><span class="text-[#C69239]">وكالة ضرائب معتمدة</span><span class="text-white"> | TAN 30002315</span></span>
+                            <span><span class="text-[#C69239]">Certified Tax Agency</span><span class="text-white"> | TAN 30002315</span></span>
+                        </div>
+                    </div>
+                    <h1 class="text-5xl leading-tight tracking-tight sm:text-7xl font-instrument-serif">
+                        Financial Clarity, Compliance, and Control. All in One Place.
+                    </h1>
+                    <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-white/80 sm:text-lg">
+                        A modern tax consultancy experience that keeps your documents, deadlines, and decisions organized—year‑round.
+                    </p>
+                    <div class="mt-8 flex justify-center gap-4">
+                        <button onclick="openContactModal()" class="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-white px-6 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 transition-all duration-300">
+                            Book a consultation
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg>
+                        </button>
+                        <a href="#approach" class="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-white/20 px-6 text-sm font-semibold text-white backdrop-blur-sm hover:bg-white/10 transition-colors">
+                            Our approach
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services Carousel -->
+                <div class="mt-14">
+                    <div class="marquee relative left-1/2 mt-4 w-screen -translate-x-1/2 overflow-visible px-4 sm:px-6 lg:px-8 pt-4">
+                        <div class="marquee-track flex w-max gap-4">
+                            <!-- Service cards will be duplicated for continuous scroll -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <div class="-mt-24 rounded-t-[40px] bg-white pt-10 mb-9">
+            <section id="about" class="bg-white">
+                <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 sm:py-20">
+                    <div class="grid items-center gap-10 lg:grid-cols-2">
+                        <div class="animate-fade-in">
+                            <h2 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">
+                                What we'll do <span class="text-[#0E946C]">for you</span>
+                            </h2>
+                            <div class="mt-4 max-w-xl space-y-4 text-base leading-7 text-black/60 sm:text-lg">
+                                <p>
+                                    The Max Global Consultancy provides integrated financial, regulatory, and business advisory services to companies operating in dynamic and evolving markets.
+                                </p>
+                                <p>
+                                    Our expertise spans taxation, accounting, compliance, and strategic financial management. We combine technical precision with commercial understanding to help organizations remain compliant, profitable, and risk-resilient.
+                                </p>
+                            </div>
+                            <div class="mt-8 flex flex-wrap gap-3">
+                                <button onclick="openContactModal()" class="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                    Book a consultation
+                                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                    </svg>
+                                </button>
+                                <button class="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-gray-300 px-6 text-sm font-semibold text-gray-600 hover:bg-gray-100 transition-all duration-300">
+                                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                    </svg>
+                                    Meet our team
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="relative animate-fade-in">
+                            <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm">
+                                <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                                <div class="relative aspect-[4/3] w-full">
+                                    <img src="/assets/aboutus.png" alt="About us" class="w-full h-full object-cover rounded-[32px]">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Who We Serve Section -->
+        <section class="bg-gradient-to-br from-[#022c22] via-[#047857] to-[#011c13] text-white overflow-hidden mx-4 rounded-3xl relative animate-fade-in">
+            <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-50 z-10"></div>
+            <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 sm:py-20 relative z-20">
+                <div class="mx-auto max-w-3xl text-center">
+                    <h2 class="text-4xl font-semibold tracking-tight sm:text-5xl">
+                        Who We Serve
+                    </h2>
+                    <p class="mt-4 text-base leading-7 text-white/80 sm:text-lg">
+                        We act as strategic financial partners — not just service providers.
+                    </p>
+                </div>
+
+                <div class="marquee relative left-1/2 mt-10 w-screen -translate-x-1/2 overflow-visible px-4 sm:px-6 lg:px-8 pt-4">
+                    <div class="marquee-track flex w-max gap-4">
+                        <!-- Audience cards will be duplicated for continuous scroll -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="bg-white">
+            <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 sm:py-20">
+                <div class="mt-12 space-y-20">
+                    <!-- FTA-Approved Tax Agency -->
+                    <div class="grid items-center gap-10 lg:grid-cols-2 animate-fade-in">
+                        <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                            <div class="relative aspect-[4/3] w-full">
+                                <img src="/assets/aml-compliance-services.png" alt="FTA-Approved Tax Agency" class="w-full h-full object-cover rounded-[32px]">
+                            </div>
+                        </div>
+                        <div class="max-w-xl">
+                            <p class="text-4xl font-semibold tracking-tight text-[#333] sm:text-5xl">
+                                FTA-Approved <span class="text-[#0E946C]">Tax Agency</span>
+                            </p>
+                            
+                            <p class="mt-3 text-base leading-7 text-black/60 sm:text-lg">
+                                Registered with the UAE Federal Tax Authority and authorized to represent clients officially.
+                                We help you stay aligned with filing requirements, documentation standards, and ongoing compliance—without the stress.
+                            </p>
+                            
+                            <div class="mt-4 space-y-2">
+                                <div class="flex items-center gap-2">
+                                    <svg class="h-4 w-4 text-[#0E946C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-sm text-gray-700">Official FTA Registration</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <svg class="h-4 w-4 text-[#0E946C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-sm text-gray-700">Authorized Representation</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <svg class="h-4 w-4 text-[#0E946C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-sm text-gray-700">Compliance Guarantee</span>
+                                </div>
+                            </div>
+                            <button onclick="openContactModal()" class="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                Speak to an advisor
+                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Cross-Functional Expertise -->
+                    <div class="grid items-center gap-10 lg:grid-cols-2 animate-fade-in">
+                        <div class="max-w-xl lg:order-1">
+                            <p class="text-4xl font-semibold tracking-tight text-[#333] sm:text-5xl">
+                                Cross-<span class="text-[#0E946C]">Functional Expertise</span>
+                            </p>
+                            <p class="mt-3 text-base leading-7 text-black/60 sm:text-lg">
+                                Spanning VAT, excise tax, accounting, finance, HR, risk management, and technology.
+                                That means you get answers that work in real operations—not advice that only fits on paper.
+                            </p>
+                            <button onclick="openContactModal()" class="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                Get a tailored plan
+                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm lg:order-2">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                            <div class="relative aspect-[4/3] w-full">
+                                <img src="/assets/crossfunctionalservice.png" alt="Cross-Functional Expertise" class="w-full h-full object-cover rounded-[32px]">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Industry Experience -->
+                    <div class="grid items-center gap-10 lg:grid-cols-2 animate-fade-in">
+                        <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                            <div class="relative aspect-[4/3] w-full">
+                                <img src="/assets/businessformationmanagement.png" alt="Industry Experience" class="w-full h-full object-cover rounded-[32px]">
+                            </div>
+                        </div>
+                        <div class="max-w-xl">
+                            <p class="text-4xl font-semibold tracking-tight text-[#333] sm:text-5xl">
+                                Industry <span class="text-[#0E946C]">Experience</span>
+                            </p>
+                            <p class="mt-3 text-base leading-7 text-black/60 sm:text-lg">
+                                Serving clients across Real Estate, Retail, Technology, Healthcare, and Education.
+                                We bring proven patterns and benchmarks, while adapting every solution to your company's structure and reporting needs.
+                            </p>
+                            <button onclick="openContactModal()" class="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                Book a consultation
+                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Tailored Solutions -->
+                    <div class="grid items-center gap-10 lg:grid-cols-2 animate-fade-in">
+                        <div class="max-w-xl lg:order-1">
+                            <p class="text-4xl font-semibold tracking-tight text-[#333] sm:text-5xl">
+                                Tailored <span class="text-[#0E946C]">Solutions</span>
+                            </p>
+                            <p class="mt-3 text-base leading-7 text-black/60 sm:text-lg">
+                                Every engagement is customized to meet your unique business goals.
+                                We scope what matters, set clear deliverables, and keep execution organized—so you can make confident decisions faster.
+                            </p>
+                            <button onclick="openContactModal()" class="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                Request a proposal
+                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm lg:order-2">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                            <div class="relative aspect-[4/3] w-full">
+                                <img src="/assets/cost-control-risk-management.png" alt="Tailored Solutions" class="w-full h-full object-cover rounded-[32px]">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Global Standards -->
+                    <div class="grid items-center gap-10 lg:grid-cols-2 animate-fade-in">
+                        <div class="relative overflow-hidden rounded-[32px] border border-black/10 bg-gradient-to-br from-[#f6fbf9] to-white shadow-sm">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#0E946C]/10 via-transparent to-transparent"></div>
+                            <div class="relative aspect-[4/3] w-full">
+                                <img src="/assets/international-tax-structuring.png" alt="Global Standards, Local Insight" class="w-full h-full object-cover rounded-[32px]">
+                            </div>
+                        </div>
+                        <div class="max-w-xl">
+                            <p class="text-4xl font-semibold tracking-tight text-[#333] sm:text-5xl">
+                                Global <span class="text-[#0E946C]">Standards</span>
+                            </p>
+                            <p class="mt-3 text-base leading-7 text-black/60 sm:text-lg">
+                                Our strategies align international best practices with UAE regulatory frameworks.
+                                You get practical compliance, better controls, and reporting that supports growth—while staying aligned with local requirements.
+                            </p>
+                            <button onclick="openContactModal()" class="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white hover:bg-[#0a7356] transition-all duration-300">
+                                Talk to us
+                                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Team Section -->
+                <section id="team" class="bg-white text-black overflow-hidden mx-4 rounded-3xl relative animate-fade-in mb-20 mt-36">
+                    <div class="w-full px-4 py-16 sm:px-6 sm:py-20 relative z-20">
+                        <div class="text-center mb-12">
+                            <h2 class="text-4xl font-semibold tracking-tight sm:text-5xl">
+                                Meet Team Max Global
+                            </h2>
+                            <p class="mt-4 text-base leading-7 text-black/60 sm:text-lg max-w-2xl mx-auto">
+                                Meet the experts behind our success. Our diverse team brings together extensive experience in finance, taxation, and business advisory.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <!-- Team Member 1 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Farah-TMG Team.png" alt="Dr. Farah M." class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Dr. Farah M.</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Founder & Managing Director</p>
+                                    <button onclick="openTeamModal('Dr. Farah M.', 'Founder & Managing Director', 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face', 'Dr. Farah M. is the Founder and Managing Director of Max Global Consultancy FZC, bringing over a decade of leadership experience in Business Strategy and Operations within the UAE market. Since establishing her professional career in Dubai in 2010, Dr. Farah has held senior management roles where she successfully led business operations, strategic planning, and financial oversights. Her expertise lies in aligning operational efficiency with financial governance, regulatory compliance, and sustainable business growth. At Max Global Consultancy, she plays a pivotal role in overseeing Accounting, Taxation, Financial Advisory, and Compliance services. Her strong understanding of UAE regulatory frameworks, corporate governance standards, and operational risk management ensures that clients receive structured, compliant, and results-driven solutions. Her leadership is driven by a commitment to transparency, regulatory integrity, and delivering practical financial solutions that support long-term business stability and growth.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Member 2 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Dr. Lawrence Benett for TMG Team.png" alt="Dr. Lawrence Benett" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Dr. Lawrence Benett</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Affiliate Director – Strategy & Compliance Advisory</p>
+                                    <button onclick="openTeamModal('Dr. Lawrence Benett', 'Affiliate Director – Strategy & Compliance Advisory', 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face', 'Dr. Lawrence Benett serves as Affiliate Director at Max Global Consultancy FZC, providing strategic advisory support and international perspective to the firm\'s leadership and client engagements. In his affiliate capacity, Dr. Benett contributes to high-level business strategy, governance advisory, and regulatory insight, particularly in areas related to corporate structuring, financial oversight, and compliance best practices. His role focuses on strengthening the firm\'s advisory capabilities and supporting complex client engagements where strategic direction and independent expertise are required. As Affiliate Director, Dr. Benett\'s association with Max Global Consultancy enhances the firm\'s strategic depth and reinforces its commitment to delivering structured, compliant, and forward-looking business solutions.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Member 3 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Muhamad Akbar-Team TMG.png" alt="Mr. Muhammad Akbar" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Mr. Muhammad Akbar</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Senior Partner | Tax & AML Compliance Lead</p>
+                                    <button onclick="openTeamModal('Mr. Muhammad Akbar', 'Senior Partner | Tax & AML Compliance Lead', 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face', 'Mr. Muhammad serves as Senior Partner and Head of Tax & AML Compliance at Max Global Consultancy FZC. He is a Registered Tax Agent listed with the Federal Tax Authority (FTA) – UAE and is also associated with ZATCA, KSA, bringing extensive cross-border expertise across the MENA region. Muhammad oversees the firm\'s tax advisory, regulatory compliance, and Anti-Money Laundering (AML) frameworks. He leads strategic tax planning, VAT compliance, corporate tax structuring, excise tax advisory, and regulatory reporting for a diverse portfolio of multinational corporations and local enterprises. In addition to taxation, he plays a critical role in strengthening AML compliance programs, risk assessment procedures, internal controls, and regulatory reporting mechanisms to ensure clients remain fully aligned with UAE compliance standards and international best practices. His expertise includes: Corporate Tax & VAT Advisory, Federal Tax Authority (FTA) Compliance, ZATCA (KSA) Tax Regulations, AML Compliance & Risk Management, Financial Structuring & Treasury Oversight, Regulatory Audit Support. Mr. Muhammad has successfully delivered integrated taxation and financial solutions across multiple industries, helping businesses maintain regulatory confidence while optimizing operational efficiency and financial performance.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Member 4 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Umar Hameed.jpg" alt="Mr. Muhammad Umar" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Mr. Muhammad Umar</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Technology Partner & Software Architect</p>
+                                    <button onclick="openTeamModal('Mr. Muhammad Umar', 'Technology Partner & Software Architect', 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face', 'Mr. Muhammad Umar serves as Technology Partner and Software Architect at Max Global Consultancy FZC, working in strategic partnership with Dr. Farah Mukhtar to drive the firm\'s digital innovation and operational technology initiatives. He leads the design and development of secure, scalable, and compliance-focused technology solutions that support the firm\'s Accounting, Taxation, Financial Advisory, and AML Compliance services. His expertise lies in software architecture, system design, and enterprise-level application development. With a strong foundation in Object-Oriented Programming (OOP) and advanced system prototyping, Mr. Umar ensures that all digital platforms are structured, efficient, and aligned with regulatory and business requirements. He applies Test-Driven Development (TDD) methodologies to maintain high standards of code quality, performance, and security. As a Technology Partner, he plays a key role in aligning operational systems with the firm\'s strategic objectives, ensuring innovation, efficiency, and regulatory reliability across all digital processes.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Member 5 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Aya Rashad.png" alt="Ms. Aya Rashad" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Ms. Aya Rashad</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Client Relations & Customer Service Executive</p>
+                                    <button onclick="openTeamModal('Ms. Aya Rashad', 'Client Relations & Customer Service Executive', 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face', 'Ms. Aya Rashad serves as Client Relations & Customer Service Executive at Max Global Consultancy FZC. She plays a key role in managing client communications and ensuring seamless coordination between clients and the firm\'s accounting, taxation, and compliance departments. Fluent in both English and Arabic, Aya effectively supports a diverse client base across the UAE and wider region. She is responsible for handling client inquiries, coordinating documentation, scheduling consultations, and maintaining ongoing client relationships with professionalism and efficiency. Aya is committed to delivering responsive, organized, and client-focused service, ensuring that every engagement with Max Global Consultancy is handled smoothly and professionally.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Member 6 -->
+                            <div class="group relative bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                                <div class="aspect-square w-full overflow-hidden">
+                                    <img src="/assets/Shaukat-TMG Team.png" alt="Mr. Shaukat" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="font-semibold text-xl text-gray-900">Mr. Shaukat</h3>
+                                    <p class="text-sm text-gray-600 mb-3">Senior Advisor</p>
+                                    <button onclick="openTeamModal('Mr. Shaukat', 'Senior Advisor', '/assets/Shaukat-TMG Team.png', 'Mr. Shaukat serves as Senior Advisor at Max Global Consultancy FZC, bringing extensive experience and strategic guidance to team. With a strong background in business advisory and financial consulting, he provides valuable insights that help shape the firm\'s strategic direction and client solutions. His expertise contributes to high-quality service delivery and innovative approaches that Max Global Consultancy is known for.')" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#0E946C] text-white text-sm font-medium rounded-full hover:bg-[#0a7356] transition-colors">
+                                        Read More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Team Modal -->
+                <div id="teamModal" class="fixed inset-0 z-50 hidden">
+                    <div class="fixed inset-0 bg-black/50 backdrop-blur-sm" onclick="closeTeamModal()"></div>
+                    <div class="fixed inset-0 flex items-center justify-center p-4">
+                        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 transform transition-all duration-300 scale-95 opacity-0" id="teamModalContent">
+                            <div class="relative">
+                                <button onclick="closeTeamModal()" class="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white transition-colors">
+                                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                    </svg>
+                                </button>
+                                <div class="aspect-square w-full overflow-hidden rounded-t-2xl">
+                                    <img id="teamModalImage" src="" alt="Team Member" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-6">
+                                    <h3 id="teamModalName" class="text-2xl font-bold text-gray-900 mb-2"></h3>
+                                    <p id="teamModalRole" class="text-lg text-[#0E946C] font-medium mb-4"></p>
+                                    <p id="teamModalDetails" class="text-gray-600 leading-relaxed"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <section id="faq" class="bg-white text-black overflow-x-hidden mb-20">
+                    <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 sm:py-20">
+                        <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+                            <div class="max-w-lg animate-fade-in">
+                                <h3 class="text-4xl font-semibold tracking-tight sm:text-5xl">
+                                    Why The Max Global?
+                                </h3>
+                                <p class="mt-4 text-base leading-7 text-black/60 sm:text-lg">
+                                    We combine compliance discipline with commercial intelligence, helping you make confident decisions, reduce risk, and stay aligned with evolving regulations.
+                                </p>
+                                <button onclick="openContactModal()" class="mt-8 inline-flex h-11 items-center justify-center rounded-full bg-[#0E946C] px-6 text-sm font-semibold text-white shadow-sm hover:bg-[#0a7356] transition-all duration-300">
+                                    Book a consultation
+                                </button>
+                            </div>
+
+                            <div class="space-y-3 animate-fade-in" id="faqContainer">
+                                <!-- FAQ items will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Contact Modal -->
+            <div id="contactModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+                <div class="bg-white rounded-2xl max-w-md w-full p-6 relative transform transition-all">
+                    <button onclick="closeContactModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                    
+                    <h3 class="text-2xl font-bold text-[#333] mb-2">Book a Consultation</h3>
+                    <p class="text-gray-600 mb-5">Call us directly:</p>
+
+                    <div class="space-y-3">
+                        <a href="tel:+971585858576" class="block rounded-xl border border-gray-200 px-4 py-4 text-center text-lg font-semibold text-[#333] hover:bg-gray-50 transition-colors">
+                            +971 58 585 8576
+                        </a>
+                        <a href="tel:+971555126539" class="block rounded-xl border border-gray-200 px-4 py-4 text-center text-lg font-semibold text-[#333] hover:bg-gray-50 transition-colors">
+                            +971 55 512 6539
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JavaScript -->
+            <script>
+                // Services Data
+                const services = [
+                    { title: "Tax Accounting Services", href: "/tax-accounting/", bgImage: "/assets/tax-accounting-services.png", icon: "" },
+                    { title: "Corporate Tax & VAT Advisory", href: "/corporate-tax-vat/", bgImage: "/assets/corporate-tax-vat-advisory.png", icon: "" },
+                    { title: "Financial Solutions Advisory", href: "/service-financial-solutions/", bgImage: "/assets/financial-soloutions-advisory.png", icon: "" },
+                    { title: "Cost Control & Risk Management", href: "/cost-control-risk-management/", bgImage: "/assets/cost-control-risk-management.png", icon: "" },
+                    { title: "AML Compliance Services", href: "/aml-compliance/", bgImage: "/assets/aml-compliance-services.png", icon: "" },
+                    { title: "Business Formation Management", href: "/business-formation/", bgImage: "/assets/businessformationmanagement.png", icon: "" },
+                    { title: "International Tax Structuring & Cross-Border Advisory", href: "/international-tax-structuring/", bgImage: "/assets/international-tax-structuring.png", icon: "" },
+                    { title: "ERP & Accounting System", href: "/service-erp-accounting-system/", bgImage: "/assets/cross-border-advisory.png", icon: "" }
+                ];
+
+                // Audience Data
+                const audiences = [
+                    { label: "SMEs and growing enterprises", image: "/assets/sme.png" },
+                    { label: "Corporations", image: "/assets/corporate-tax-vat-advisory.png" },
+                    { label: "Financial service providers", image: "/assets/fsp.jpg" },
+                    { label: "Trading companies", image: "/assets/trading.jpg" },
+                    { label: "Professional service firms", image: "/assets/banking.jpg" },
+                    { label: "International businesses expanding into new markets", image: "/assets/internationalbusiness.png" }
+                ];
+
+                // FAQ Data
+                const faqs = [
+                    {
+                        question: "Is Max Global Consultancy approved by the UAE Federal Tax Authority?",
+                        answer: "Yes, we are a registered and approved tax agency with the FTA, authorized to represent clients in VAT and excise tax matters."
+                    },
+                    {
+                        question: "What industries do you serve?",
+                        answer: "We serve clients across multiple sectors including Finance, Real Estate, Technology, Healthcare, Retail, and Education."
+                    },
+                    {
+                        question: "Do you help startups and SMEs?",
+                        answer: "Absolutely. SMEs are our core clientele, and we provide cost-effective, compliant, and scalable solutions to meet their needs."
+                    },
+                    {
+                        question: "Can you assist with business setup in the UAE?",
+                        answer: "Yes, we provide complete end-to-end business setup services across mainland, free zones, and offshore jurisdictions."
+                    },
+                    {
+                        question: "How do you ensure compliance and data security?",
+                        answer: "We use encrypted systems, follow strict confidentiality protocols, and adhere to UAE data protection laws."
+                    },
+                    {
+                        question: "Who Is Required to Register for Corporate Tax in the UAE?",
+                        answer: "Any UAE business — onshore or in a free zone — must register for corporate tax if it crosses the exempt income threshold or is required by the FTA. This rule covers UAE legal entities (like LLCs, PSCs, PJSCs), individuals doing business in the UAE, and foreign companies with a permanent establishment here."
+                    },
+                    {
+                        question: "Is Corporate Tax Registration Mandatory in the UAE?",
+                        answer: "Every entity or individual classified as a taxable person under the UAE Corporate Tax Law is required to register with the FTA and obtain a Tax Registration Number (TRN) — even if no tax is ultimately due. Missing the official registration deadline may result in penalties."
+                    },
+                    {
+                        question: "What Documents Are Required for Corporate Tax Registration in the UAE?",
+                        answer: "The following documents are typically required: Emirates ID and passport copies of the business owner, Trade license, Company structure chart and contact information, Memorandum of Association (MoA), Financial statements or records (if available)."
+                    },
+                    {
+                        question: "What Is the Deadline for Corporate Tax Registration in the UAE?",
+                        answer: "The UAE requires businesses to register for corporate tax within 9 months of the start of their financial year or from the effective date of the corporate tax law (for example, 1 June 2023). Deadlines are generally determined based on the month the business license was issued."
+                    },
+                    {
+                        question: "How Do I Submit Corporate Tax Returns in the UAE?",
+                        answer: "Corporate Tax Returns must be filed annually via the FTA's EmaraTax portal. The submission deadline is within 9 months following the end of your financial year."
+                    },
+                    {
+                        question: "How to Review or Appeal a Corporate Tax Penalty in the UAE?",
+                        answer: "Penalties can be viewed through your FTA account. If you think a fine has been incorrectly imposed, you can submit a reconsideration request to the FTA and apply for a waiver."
+                    },
+                    {
+                        question: "What is a Tax Period Under UAE Corporate Tax?",
+                        answer: "A tax period is typically a 12-month financial year. The default period is 1 Jan – 31 Dec, but businesses can apply to follow a different accounting period (e.g., April to March)."
+                    }
+                ];
+
+                // Populate Services Carousel
+                function populateServicesCarousel() {
+                    const marqueeTrack = document.querySelector('.marquee-track');
+                    const marqueeItems = [...services, ...services];
+                    
+                    marqueeItems.forEach((service, idx) => {
+                        const serviceCard = document.createElement('a');
+                        serviceCard.href = service.href;
+                        serviceCard.className = 'group shrink-0 w-[260px] sm:w-[300px] cursor-pointer block';
+                        serviceCard.innerHTML = `
+                            <div class="h-[340px] overflow-hidden rounded-3xl shadow-sm relative transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-xl group-hover:shadow-black/20">
+                                <div class="absolute inset-0 rounded-3xl" style="background-image: url('${service.bgImage}'); background-size: cover; background-position: center;"></div>
+                                <div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-black/60 to-black/40"></div>
+                                <div class="absolute inset-0 rounded-3xl bg-white/0 transition-colors duration-300 group-hover:bg-white/10"></div>
+                                <div class="relative flex h-full flex-col justify-between p-5 z-10">
+                                    <div class="space-y-4">
+                                        <div class="flex items-center gap-3">
+                                            <div class="text-2xl">${service.icon}</div>
+                                            <h3 class="text-lg font-semibold tracking-tight text-white">${service.title}</h3>
+                                        </div>
+                                    </div>
+                                    <span class="inline-flex text-sm font-semibold text-white/90">Learn more</span>
+                                </div>
+                            </div>
+                        `;
+                        marqueeTrack.appendChild(serviceCard);
+                    });
+                }
+
+                // Populate Audience Carousel
+                function populateAudienceCarousel() {
+                    const audienceMarqueeTrack = document.querySelectorAll('.marquee-track')[1];
+                    const marqueeItems = [...audiences, ...audiences];
+                    
+                    marqueeItems.forEach((item, idx) => {
+                        const audienceCard = document.createElement('article');
+                        audienceCard.className = 'shrink-0 w-[260px] sm:w-[320px]';
+                        audienceCard.innerHTML = `
+                            <div class="h-[200px] overflow-hidden rounded-3xl bg-white shadow-sm relative">
+                                <img src="${item.image}" alt="${item.label}" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-transparent"></div>
+                                <div class="absolute inset-0 p-6 flex items-end">
+                                    <p class="text-base font-semibold tracking-tight text-white leading-snug">${item.label}</p>
+                                </div>
+                            </div>
+                        `;
+                        audienceMarqueeTrack.appendChild(audienceCard);
+                    });
+                }
+
+                // Populate FAQ
+                function populateFAQ() {
+                    const faqContainer = document.getElementById('faqContainer');
+                    
+                    faqs.forEach((faq, index) => {
+                        const faqItem = document.createElement('div');
+                        faqItem.className = 'border border-black/10 rounded-2xl overflow-hidden bg-white';
+                        faqItem.innerHTML = `
+                            <button onclick="toggleFAQ(${index})" class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+                                <span class="text-sm font-medium text-[#333]">${faq.question}</span>
+                                <svg id="faq-icon-${index}" class="h-4 w-4 text-[#0E946C] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="faq-content-${index}" class="overflow-hidden transition-all duration-300 max-h-0">
+                                <div class="px-6 py-4 text-sm text-black/60 border-t border-black/10">
+                                    ${faq.answer}
+                                </div>
+                            </div>
+                        `;
+                        faqContainer.appendChild(faqItem);
+                    });
+                }
+
+                // Toggle FAQ
+                function toggleFAQ(index) {
+                    const content = document.getElementById(`faq-content-${index}`);
+                    const icon = document.getElementById(`faq-icon-${index}`);
+                    
+                    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                        content.style.maxHeight = '0px';
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        // Close all other FAQs
+                        faqs.forEach((_, i) => {
+                            if (i !== index) {
+                                document.getElementById(`faq-content-${i}`).style.maxHeight = '0px';
+                                document.getElementById(`faq-icon-${i}`).style.transform = 'rotate(0deg)';
+                            }
+                        });
+                        
+                        content.style.maxHeight = '300px';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                }
+
+                // Mobile Menu Toggle
+                function toggleMobileMenu() {
+                    const menu = document.getElementById('mobileMenu');
+                    menu.classList.toggle('hidden');
+                }
+
+                // Contact Modal Functions
+                function openContactModal() {
+                    const modal = document.getElementById('contactModal');
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                    setTimeout(() => {
+                        modal.querySelector('.bg-white').classList.add('scale-100');
+                    }, 10);
+                }
+
+                function closeContactModal() {
+                    const modal = document.getElementById('contactModal');
+                    modal.querySelector('.bg-white').classList.remove('scale-100');
+                    setTimeout(() => {
+                        modal.classList.add('hidden');
+                        modal.classList.remove('flex');
+                    }, 300);
+                }
+
+                // Team Modal Functions
+                function openTeamModal(name, role, image, details) {
+                    const modal = document.getElementById('teamModal');
+                    const modalContent = document.getElementById('teamModalContent');
+                    const modalImage = document.getElementById('teamModalImage');
+                    const modalName = document.getElementById('teamModalName');
+                    const modalRole = document.getElementById('teamModalRole');
+                    const modalDetails = document.getElementById('teamModalDetails');
+
+                    modalImage.src = image;
+                    modalName.textContent = name;
+                    modalRole.textContent = role;
+                    modalDetails.textContent = details;
+
+                    modal.classList.remove('hidden');
+                    setTimeout(() => {
+                        modalContent.classList.remove('scale-95', 'opacity-0');
+                        modalContent.classList.add('scale-100', 'opacity-100');
+                    }, 10);
+                }
+
+                function closeTeamModal() {
+                    const modal = document.getElementById('teamModal');
+                    const modalContent = document.getElementById('teamModalContent');
+
+                    modalContent.classList.remove('scale-100', 'opacity-100');
+                    modalContent.classList.add('scale-95', 'opacity-0');
+                    setTimeout(() => {
+                        modal.classList.add('hidden');
+                    }, 300);
+                }
+
+                // Close modal when clicking outside
+                document.getElementById('contactModal').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeContactModal();
+                    }
+                });
+
+                // Initialize on page load
+                document.addEventListener('DOMContentLoaded', function() {
+                    populateServicesCarousel();
+                    populateAudienceCarousel();
+                    populateFAQ();
+
+                    if (window.location.hash === '#contact') {
+                        openContactModal();
+                    }
+                    
+                    // Add animation observer
+                    const observerOptions = {
+                        threshold: 0.1,
+                        rootMargin: '0px 0px -50px 0px'
+                    };
+                    
+                    const observer = new IntersectionObserver(function(entries) {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                entry.target.style.opacity = '1';
+                                entry.target.style.transform = 'translateY(0)';
+                            }
+                        });
+                    }, observerOptions);
+                    
+                    document.querySelectorAll('.animate-fade-in').forEach(el => {
+                        el.style.opacity = '0';
+                        el.style.transform = 'translateY(30px)';
+                        el.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
+                        observer.observe(el);
+                    });
+                });
+
+                // Smooth scroll for navigation links
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        const href = this.getAttribute('href');
+                        if (href === '#contact') {
+                            e.preventDefault();
+                            openContactModal();
+                            const mobileMenu = document.getElementById('mobileMenu');
+                            if (mobileMenu) {
+                                mobileMenu.classList.add('hidden');
+                            }
+                            return;
+                        }
+
+                        e.preventDefault();
+                        const target = document.querySelector(this.getAttribute('href'));
+                        if (target) {
+                            target.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                            // Close mobile menu if open
+                            document.getElementById('mobileMenu').classList.add('hidden');
+                        }
+                    });
+                });
+            </script>
+        </body>
+        </html>
